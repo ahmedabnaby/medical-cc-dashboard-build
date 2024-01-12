@@ -65,6 +65,7 @@ ol li:hover{
     margin: auto;
     border-radius: 15px;
     border-color: black;
+    overflow-y: scroll !important;
 }
 
 .overflowY {
@@ -313,6 +314,9 @@ textarea {
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.23);
     border-radius: 12px;
+}
+#delete-icon{
+    width: 35px;
 }
 
 @media only screen and (max-width: 700px) {
